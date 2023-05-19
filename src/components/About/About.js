@@ -5,7 +5,7 @@ import { HiArrowDownTray } from 'react-icons/hi2';
 
 const About = () => {
     return (
-        <div name="skills">
+        <div name="about">
             <h3 className='text-3xl mt-10 mb-16 ml-4'>About Me</h3>
             <div className="hero">
             <div className="hero-content gap-10 lg:gap-40 flex-col lg:flex-row-reverse">
