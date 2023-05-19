@@ -9,8 +9,8 @@ const About = () => {
             <h3 className='text-3xl mt-10 mb-16 ml-4'>About Me</h3>
             <div className="hero">
             <div className="hero-content gap-10 lg:gap-40 flex-col lg:flex-row-reverse">
-                <img className='rounded-2xl' width={'350px'} src={antu} alt='' />
-                <div className=' lg:w-1/2'>
+                <img className='rounded-2xl w-2/3 lg:w-1/4'  src={antu} alt='' />
+                <div className='lg:w-1/2'>
                 <h1 className="text-3xl font-bold">Antu Das</h1>
                <div>
                <p className="py-6">A passionate web developer have acquired a solid understanding of HTML, CSS, and JavaScript, along with frameworks and libraries like React, Tailwind CSS, daisyUI and Bootstrap.I am dedicated to staying up-to-date with the latest industry trends and best practices to create innovative and efficient web solutions.</p>
