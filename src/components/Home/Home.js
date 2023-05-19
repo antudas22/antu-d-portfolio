@@ -3,11 +3,13 @@ import Banner from '../Banner/Banner';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import About from '../About/About';
 
 const Home = () => {
     return (
         <div>
             <Banner/>
+            <About/>
             <Skills/>
             <Projects/>
             <Contact/>

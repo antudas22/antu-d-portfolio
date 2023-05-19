@@ -37,7 +37,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a alt="" className="btn mr-2 text-white">Resume <HiArrowDownTray className='ml-2' /></a>
+    <Link to='' alt="" className="btn mr-2 text-white">Resume <HiArrowDownTray className='ml-2' /></Link>
   </div>
 </div>
     );
