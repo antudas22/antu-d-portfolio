@@ -1,8 +1,13 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import Scroll from 'react-scroll';
 import { HiArrowDownTray } from "react-icons/hi2";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
+    let ScrollLink = Scroll.Link;
+
+
     return (
         <div className="navbar my-3">
   <div className="navbar-start mx-2">
@@ -12,10 +17,10 @@ const Navbar = () => {
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content gap-1 p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="skills" spy={true} smooth={true} duration={1000}>Skills</Link></li>
-        <li><Link to="projects" spy={true} smooth={true} duration={1000}>Projects</Link></li>
-        <li><Link to="contact" spy={true} smooth={true} duration={1000}>Contact</Link></li>
-        <li><Link to="about" spy={true} smooth={true} duration={1000}>About</Link></li>
+        <li><ScrollLink to="skills" spy={true} smooth={true} duration={1000}>Skills</ScrollLink></li>
+        <li><ScrollLink to="projects" spy={true} smooth={true} duration={1000}>Projects</ScrollLink></li>
+        <li><ScrollLink to="contact" spy={true} smooth={true} duration={1000}>Contact</ScrollLink></li>
+        <li><ScrollLink to="about" spy={true} smooth={true} duration={1000}>About</ScrollLink></li>
       </ul>
     </div>
     <Link to="/">
@@ -25,10 +30,10 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal gap-1">
     <li><Link to="/">Home</Link></li>
-        <li><Link to="skills" spy={true} smooth={true} duration={1000}>Skills</Link></li>
-        <li><Link to="projects" spy={true} smooth={true} duration={1000}>Projects</Link></li>
-        <li><Link to="contact" spy={true} smooth={true} duration={1000}>Contact</Link></li>
-        <li><Link to="about" spy={true} smooth={true} duration={1000}>About</Link></li>
+        <li><ScrollLink to="skills" spy={true} smooth={true} duration={1000}>Skills</ScrollLink></li>
+        <li><ScrollLink to="projects" spy={true} smooth={true} duration={1000}>Projects</ScrollLink></li>
+        <li><ScrollLink to="contact" spy={true} smooth={true} duration={1000}>Contact</ScrollLink></li>
+        <li><ScrollLink to="about" spy={true} smooth={true} duration={1000}>About</ScrollLink></li>
     </ul>
   </div>
   <div className="navbar-end">

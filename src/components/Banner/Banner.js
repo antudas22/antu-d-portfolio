@@ -10,7 +10,7 @@ const Banner = () => {
             <img className='w-3/4 lg:w-11/12' src={banner} alt="" />
         </div>
             <div className='my-auto p-10 lg:p-0 text-start md:text-center lg:text-start'>
-                <h2 className='text-4xl md:text-6xl lg:text-6xl font-bold my-5 w-full'>Hi! I'm Antu
+                <h2 className='text-base-content text-4xl md:text-6xl lg:text-6xl font-bold my-5 w-full'>Hi! I'm Antu
                 <span className='text-yellow-700'>
                 <Typewriter
                         options={{
