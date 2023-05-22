@@ -1,13 +1,16 @@
 import { RouterProvider } from "react-router-dom";
-import SocialBar from "./components/SocialBar/SocialBar";
 import { router } from "./Routers/Routes";
 import { Toaster } from "react-hot-toast";
+import './App.css'
+import SocialBar from "./components/SocialBar/SocialBar";
 
 function App() {
   return (
     <div className="max-w-screen-xl mx-auto">
+      <div className="fixed bottom-5 right-5 z-50">
+          <SocialBar/>
+      </div>
       <Toaster/>
-      <SocialBar/>
       <RouterProvider router={router}/>
     </div>
   );

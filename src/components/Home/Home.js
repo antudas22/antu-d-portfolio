@@ -7,7 +7,7 @@ import About from '../About/About';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             <Banner/>
             <About/>
             <Skills/>

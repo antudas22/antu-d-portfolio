@@ -12,7 +12,7 @@ const Footer = () => {
   </div> 
   <div>
     <div className="grid grid-flow-col gap-6 text-2xl">
-      <a href='https://www.linkedin.com/in/antudas/' alt="" target="blank"><FaLinkedin /></a>
+      <a href='https://www.linkedin.com/in/antud19/' alt="" target="blank"><FaLinkedin /></a>
       <a href='https://github.com/antudas22' alt="" target="blank"><FaGithub /></a>
       <a href='https://www.facebook.com/theantumoni/' alt="" target="blank"><FaFacebookSquare /></a>
       <a href='https://www.instagram.com/the_antum/' alt="" target="blank"><FaInstagram /></a>

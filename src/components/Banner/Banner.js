@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import banner from '../../assets/antu-banner.png';
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-scroll';
 
 const Banner = () => {
     return (
@@ -23,7 +23,7 @@ const Banner = () => {
                 </h2>
                     
                 <p className='mb-8 text-white'>I can develop websites with HTML5, CSS3, Tailwind CSS, daisy UI,<br/>Bootstrap, JavaScript, React, Firebase, Node Js, Express Js, MongoDB, JWT...</p>
-                <Link className='btn text-white'>Hire Me</Link>
+                <Link to="contact" spy={true} smooth={true} duration={1000} className='btn text-white'>Hire Me</Link>
             </div>
         </div>
     );
